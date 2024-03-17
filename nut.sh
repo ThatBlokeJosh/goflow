@@ -1,2 +1,1 @@
-go build .
-./goflow
+go run main.go
