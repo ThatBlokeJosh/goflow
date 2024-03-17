@@ -63,7 +63,7 @@ func formatChatMessage(item utils.Item) []byte {
 func DrawItems(items utils.Items) {
 	textTab.Clear()
 	if len(items.Items) == 0 {
-		textTab.Write([]byte("[blue]No questions for this topic"))
+		textTab.Write([]byte("[blue]No questions regarding this topic"))
 		return
 	}
 	for _, item := range items.Items {
